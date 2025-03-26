@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Today</title>
+    <link rel="shortcut icon" href="../assets/weather favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="conversion">
+            <label for="celsius-to-fahrenheit">Celsius to Fahrenheit</label>
+            <br>
+            <input type="number" id="celsius-to-fahrenheit" placeholder="°C">
+            <button onclick="convert()">Convert</button>
+        </div>
+        <input type="text" id="fahrenheit" readonly>
+        <div class="weather-icon">
+            <img src="../assets/hot weather.png" alt="thermometer weather hot">
+        </div>
+        <div class="weather-statut">
+            <input type="text" id="statut" readonly>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
